@@ -8,14 +8,15 @@
     "start": "node index"
   },
   "dependencies": {
-    "express": "*",
-    "mongoose": "*",
     "bcryptjs": "*",
-    "passport": "*",
-    "passport-jwt": "*",
     "body-parser": "*",
     "cors": "*",
-    "jsonwebtoken": "*"
+    "dotenv": "^8.2.0",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*"
   },
   "author": "",
   "license": "ISC"

@@ -6,10 +6,12 @@ const passport = require('passport');
 const path = require('path');
 const config = require('./config/db');
 const account = require('./routes/account');
-
 const app = express();
+const dotenv = require('dotenv');
+
 
 const port = process.env.PORT || 8080;
+require('dotenv').config({ path: 'ENV_FILENAME' });
 
 app.use(passport.initialize());
 app.use(passport.session());
